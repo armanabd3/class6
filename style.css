@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+
+
+}
+h1 {
+    color: white;
+    background-color: blue;
+    text-shadow: 2;
+}
+marquee {
+    color: red;
+}
+address {
+    color: white;
+    background-color: black;
+}
+#p1{
+    color: red;
+}
+#p2{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+pre{
+    background-color: gray;
+}
+.blog{
+    width: 100%;
+}
+div img{
+    width: 50%;
+}
+div iframe{
+    width: auto;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+nav{
+    background-color: gray;
+    width: 95%;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    display: block;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    left: 20%;
+    
+}
+nav ul li:hover>ul{
+    display: block;
+    background: yellow;
+    
+}
+nav ul li ul li ul{
+    left: 100%;
+    top: 0%;
+    
+     
+}
+nav ul li ul li:hover a{
+    color: black;
+    background: green;
+}
+nav ul li ul li ul li:hover a{
+    background: green;
+    color: white;
+}
